@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: build_API
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shadhin?createDatabaseIfNotExist=true
+    username: root
+    password: Root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+  sql:
+    init:
+      mode: never   # ensure schema.sql runs on startup
+
+
+
+logging:
+  level:
+    org.springframework.jdbc.core: DEBUG   # enables SQL query logs
