@@ -1,6 +1,6 @@
 package com.shadhin.build_API.repository;
 
-import com.shadhin.build_API.entity.Task;
+import com.shadhin.build_API.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

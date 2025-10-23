@@ -1,6 +1,6 @@
 package com.shadhin.build_API.controller;
 
-import com.shadhin.build_API.entity.Task;
+import com.shadhin.build_API.model.Task;
 import com.shadhin.build_API.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

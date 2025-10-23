@@ -1,7 +1,7 @@
 package com.shadhin.build_API.service;
 
 
-import com.shadhin.build_API.entity.Task;
+import com.shadhin.build_API.model.Task;
 import com.shadhin.build_API.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
