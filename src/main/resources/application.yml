@@ -8,13 +8,12 @@ spring:
     password: Root@123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-
-
   sql:
     init:
-      mode: never   # ensure schema.sql runs on startup
+      mode: always   # ensure schema.sql runs on startup
 
-
+server:
+  port: 8080
 
 logging:
   level:
