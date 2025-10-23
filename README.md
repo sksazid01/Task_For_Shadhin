@@ -320,10 +320,11 @@ GET http://localhost:8080/tasks/stats
 
 ### Edge Cases Handled:
 
-1. **Task Not Found**: Returns 500 with error message when task ID doesn't exist
+1. **Task Not Found**: Returns 404 Not Found when task ID doesn't exist
    ```json
    {
-     "error": "Task not found with id: 999"
+     "error": "Not Found",
+     "message": "Task not found with id: 999"
    }
    ```
 
